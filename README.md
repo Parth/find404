@@ -4,10 +4,10 @@ Over time static projects tend to accumulate broken links. Given a folder, `find
 
 # TODO
 
-+ [ ] Fork this repo
-+ [ ] Create a scala file named `Find404.scala`
-+ [ ] Given a folder via command line args print out all the files in that folder
-+ [ ] Exclude all the files in `.gitignore`
++ [x] Fork this repo
++ [x] Create a scala file named `Find404.scala`
++ [x] Given a folder via command line args print out all the files in that folder
++ [x] Exclude all the files in `.gitignore`
 + [ ] Read each file that remains and create a `case class UriFound(file: File, line: Int, uri: Uri)`.
 + [ ] Make a `get` request for each `UriFound`. 
 + [ ] If 404 `println` the `UriFound`.
