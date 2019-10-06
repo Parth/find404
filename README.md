@@ -6,11 +6,12 @@ Over time static projects tend to accumulate broken links. Given a folder, `find
 
 + [x] Fork this repo
 + [x] Create a scala file named `Find404.scala`
-+ [x] Given a folder via command line args print out all the files in that folder
 + [x] Exclude all the files in `.gitignore`
-+ [ ] Read each file that remains and create a `case class UriFound(file: File, line: Int, uri: Uri)`.
-+ [ ] Make a `get` request for each `UriFound`. 
-+ [ ] If 404 `println` the `UriFound`.
++ [x] Read each file that remains and create a `case class UriFound(file: File, line: Int, uri: Uri)`.
++ [x] Make a `get` request for each `UriFound`. 
++ [x] If 404 `println` the `UriFound`.
++ [ ] Make robust
++ [ ] Make friendly
 + [ ] Test this on parthmehrotra.com
 + [ ] Setup CI/CD
 + [ ] Deploy to package managers
